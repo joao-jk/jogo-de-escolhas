@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    
+
+    <script>
+
+function deitado(){
+var html = '<div class="container">';
+html += '<p> Você continua deitado e vê sua vó passando com uma faca na mão </p>';
+html += '<img src="https://i.ytimg.com/vi/BvRzvdY1Igc/maxresdefault.jpg">';
+html += '<p> Se safou de uma facada </p>';
+html += '<button onclick="levantar2()">levantar</button>';
+html += '<button onclick="deitado2()">continuar deitado</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function deitado2(){
+var html = '<div class="container">';
+html += '<p>Você decide ficar deitado ainda mais, porém sua vó sem paciência coloca fogo no seu quarto</p>'
+html += '<p>Você morre queimado lá dentro</p>'
+html += '<img src= "https://s2.glbimg.com/YxTt1GtyMvqfttrkGFlR8o9IZxQ=/1200x630/s.glbimg.com/jo/g1/f/original/2013/07/13/img_2933.jpg">'
+html += '</div>'
+$( "body" ).append( html );
+}
+
+
+function levantar(){
+var html = '<div class="container">';
+html += '<p> Voce decide levantar logo e vê sua vó com uma faca parada na porta </p>';
+html += '<img src="https://i.ytimg.com/vi/BvRzvdY1Igc/maxresdefault.jpg">';
+html += '<p>Você morreu com uma facada no peito</p>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function levantar2(){
+var html = '<div class="container">';
+html += '<p>Você está de pé!</p>';
+html += '<p>Você vê uma algumas gavetas naquele quarto estranho</p>';
+html += '<p>vai olhar ou fugir pela porta?</p>';
+html += '<img src="https://th.bing.com/th/id/OIP.j8dsYqTC0KTeOMzVvQN8zAHaEJ?rs=1&pid=ImgDetMain">';
+html += '<br>';
+html += '<button onclick="gaveta()">olhar gaveta</button>';
+html += '<button onclick="fugirPelaPorta()">fugir!</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function fugirPelaPorta(){
+var html = '<div class="container">';
+html += '<p>Você tenta fugir pela porta, porém sua vó deixou uma armadiha</p>';
+html += '<p>Você morre esmagado por uma bigorna</p>';
+html += '</div>'
+
+
+$( "body" ).append( html );
+}
+
+function gaveta(){
+var html = '<div class="container">';
+html += '<p>Ao investigar as gavetas mais de perto você acha uma chave dourada</p>';
+html += '<img src="https://img.freepik.com/fotos-premium/uma-chave-de-ouro-com-uma-pedra-azul-no-topo_866593-214.jpg">';
+html += '<p>Você sabe que é a chave de algumas das portas para fugir</p>';
+html += '<button onclick="fundos()">fugir pela porta dos fundos</button>';
+html += '<button onclick="principal()">fugir pela porta principal</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function fundos(){
+var html = '<div class="container">';
+html += '<p>Você decide fugir pela porta dos fundos, ao chegar lá você consegue abrir a porta e se depara com um quintal gigante</p>';
+html += '<p>ansioso você corre para a liberdade, porém, ducky que já o espereva, sorri com um sorriso macabro para você</p>';
+html += '<img src="https://th.bing.com/th/id/R.0611c36d4a79992cc867c5752d872aa3?rik=3JQ2rwEbPbYVZw&pid=ImgRaw&r=0">';
+html += '<p>Ducky ganha um novo brinquedinho</p>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function principal(){
+var html = '<div class="container">';
+html += '<p>Você opta por fugir pela porta princpal, ao descer as escadas e ir para lá, você sente um cheiro horrivél vindo da cozinha</p>';
+html += '<p>Ao chegar a porta, você consegue abri-la rápidamente e corre para a rua</p>';
+html += '<p>você vê um carro se aproximando</p>';
+html += '<img src="https://img.freepik.com/fotos-premium/carro-velho-encontrado-em-uma-floresta-misteriosa-a-noite-que-pode-evocar-uma-sensacao-de-intriga-suspense-ou-perigo-generative-ai_213438-8291.jpg">';
+html += '<br>';
+html += '<button onclick="ajuda()">pedir ajuda</button>';
+html += '<button onclick="passar()">deixar passar</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function ajuda(){
+var html = '<div class="container">';
+html += '<p>Ao pedir ajuda, o carro para ao seu lado. Você vê que na verdade é seu avô, e ele tem uma arma</p>';
+html += '<img src="https://th.bing.com/th/id/R.3a16248be03a562efbd2af5698cce320?rik=n5EC4AU1mNzZTw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-f22h-Pzv61U%2fUp4EcARxqvI%2fAAAAAAAApF0%2fQJhtcZFTdLo%2fs1600%2farma-do-homem-flagrado-em-santaluz.jpg&ehk=OtxqBqbIMszTIWj8kI2aM4gvfnkDZ3vtuNreBkZveqQ%3d&risl=&pid=ImgRaw&r=0">';
+html += '<p>você morre com um tiro na cabeça</p>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function passar(){
+var html = '<div class="container">';
+html += '<p>você deixa aquele carro etranho passar, e logo em seguida vê outro carro aparecendo na estrada</p>';
+html += '<img src="https://img.freepik.com/fotos-premium/carros-na-estrada-na-floresta_1048944-29943667.jpg">';
+html += '<br>';
+html += '<button onclick="passar2()">se esconder e deixar passar</button>';
+html += '<button onclick="ajuda2()">pedir ajuda ao carro</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function passar2(){
+var html = '<div class="container">';
+html += '<p>Você deixa o carro passar novamente, agora com uma estrada deserta e sem vida alguma, você se perde</p>';
+html += '<p>você morre de fome e perdido</p>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function ajuda2(){
+var html = '<div class="container">';
+html += '<p>você resolve pedir ajuda ao carro, assim que ele chega mais perto, logo você vê que era um carro da polícia</p>';
+html += '<p>eles te acolhem e agora você está salvo</p>';
+html += '<p>seus avós foram presos por te sequestrarem</p>';
+html += '<img src="https://img.freepik.com/premium-photo/elderly-criminal-orange-uniform-sits-prison-bed-thinks-about-freedom-prisoner-serves-imprisonment-term-jail-cell-guilty-inmate-detention-center-correctional-facility_331695-9413.jpg?w=740">';
+html += '<h1>parabéns por ter conseguido fugir com vida</h1>';
+html += '<h6>pelo menos por enquanto...</h6>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+    </script>
+
+
+<style>
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+    width: 500px;
+}
+
+img{
+    width: 650px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+
+    <div class="container">
+    <h1> fuja!! </h1>
+    <p>você acorda em um quarto velho e feio</p>
+    <img src="https://th.bing.com/th/id/OIP.j8dsYqTC0KTeOMzVvQN8zAHaEJ?rs=1&pid=ImgDetMain">
+    <br>
+
+    <button onclick="deitado()">continuar deitado</button>
+    <button onclick="levantar()">levantar</button>
+    </div>
+
+    
+
+
+
+</body>
+</html>
